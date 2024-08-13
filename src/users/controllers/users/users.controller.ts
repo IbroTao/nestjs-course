@@ -24,7 +24,7 @@ export class UsersController {
   @Post('create')
   @UsePipes(new ValidationPipe())
   createPost(@Body() userData: CreateUserDto) {
-    console.log(userData.email);
+    console.log(userData.email); 
     return {};
   }
 
