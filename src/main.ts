@@ -1,3 +1,9 @@
 /* eslint-disable */
 import {NestFactory} from "@nestjs/core"
-import {} from 
+import {AppModule} from "./app.module"
+
+async function startApp() {
+    const app = await NestFactory.create(AppModule);
+    await app.listen(3000);
+}
+startApp()
