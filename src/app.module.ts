@@ -1,9 +1,10 @@
-import { Module } from '@nestjs/common';
-import { UsersModule } from './users/users.module';
+/* eslint-disable */
+import {Module} from "@nestjs/common"
 
 @Module({
-  imports: [UsersModule],
-  controllers: [],
-  providers: [],
+    imports: [],
+    controllers: [],
+    providers: [],
 })
+
 export class AppModule {}
