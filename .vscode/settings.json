@@ -1,0 +1,10 @@
+{
+    "editor.defaultFormatter": null,
+    "editor.experimentalInlineEdit.enabled": false,
+    "editor.semanticTokenColorCustomizations": {
+
+    },
+    "editor.cursorBlinking": "expand",
+    "editor.cursorSmoothCaretAnimation": "on",
+    "files.autoSave": "off"
+}
